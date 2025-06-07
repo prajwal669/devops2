@@ -97,12 +97,10 @@ To build and run this project, follow these steps:
 
 Compile the Project
 mvn compile
-Compile or build Success CMD
-Run the Unit Tests
+,
 mvn test
-Unit test Success CMD
-Package the project into a JAR
+ ,
 mvn package
-Package the project into a JAR CMD
-Run the application (using JAR)
+
+,
 java -cp target/myapp-1.0-SNAPSHOT.jar com.example.App

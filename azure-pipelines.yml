@@ -15,8 +15,8 @@ steps:
       mavenPomFile: 'pom.xml'
       mavenOptions: '-Xmx3072m'
       javaHomeOption: 'Path'
-      jdkDirectory: 'C:\\Program Files\\Java\\jdk-17'  # PATH in your system
+      jdkDirectory: 'C:\Program Files\Java\jdk-17'  # Remove leading space
       jdkArchitectureOption: 'x64'
       publishJUnitResults: true
       testResultsFiles: '**/surefire-reports/TEST-*.xml'
-      goals: '
+      goals: 'package'
